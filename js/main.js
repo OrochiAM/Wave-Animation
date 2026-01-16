@@ -23,8 +23,8 @@ const hueRotate = () => {
   hueR++;
 
   w0.style.filter = `hue-rotate(${hueR}deg)`;
-  w1.style.filter = `hue-rotate(${hueR + 10}deg)`;
-  w2.style.filter = `hue-rotate(${hueR + 20}deg)`;
+  w1.style.filter = `hue-rotate(${hueR + 20}deg)`;
+  w2.style.filter = `hue-rotate(${hueR + 40}deg)`;
 };
 
 setInterval(hueRotate, 100);
