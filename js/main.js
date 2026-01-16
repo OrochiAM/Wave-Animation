@@ -8,14 +8,14 @@ const animateWave = (wave, duration) => {
     xPercent: '+=50',
     duration: duration,
     ease: 'none',
-  }).set('img', {
+  }).set(wave, {
     xPercent: '-=50',
   });
 };
 
 animateWave(w0, 5);
-animateWave('.w1', 8);
-animateWave('.w2', 12);
+animateWave(w1, 7);
+animateWave(w2, 10);
 
 let hueR = 0;
 
